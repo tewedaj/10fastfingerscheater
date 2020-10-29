@@ -55,3 +55,14 @@ def TypeFastAndPassAntiCheat(email,password,words):
     TypeFast(email,password,words)
     time.sleep(50)
     passAntiCheat()
+def TypeFastAno(w):
+    driver.get("https://10fastfingers.com/typing-test/english")
+    time.sleep(29)
+    x = 0
+    if w == None:
+        w = 210
+    while x < w:
+        words = driver.find_element(By.XPATH, "//span[@class='highlight']").text
+        writer = driver.find_element(By.CLASS_NAME, "form-control")
+        writer.send_keys(words, " ")
+        x += 1
