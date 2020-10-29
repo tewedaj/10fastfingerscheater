@@ -1,8 +1,8 @@
 # 10fastfingerscheater
-# this code is writen for educational perpose only and also to screw with your friends hehehe
-# you will need to ping install selenium and pytesseract
-# after you do that you will need too download the tesseract installer from https://digi.bib.uni-mannheim.de/tesseract/
-# and install it to "c:\Program Files\Tesseract-OCR\tesseract.exe" if you install it in another place you should change the directory in the code(line 2)
+1) this code is writen for educational perpose only and also to screw with your friends hehehe
+2) you will need to pip install selenium and pytesseract
+3) after you do that you will need too download the tesseract installer from https://digi.bib.uni-mannheim.de/tesseract/
+4) and install it to "c:\Program Files\Tesseract-OCR\tesseract.exe" if you install it in another place you should change the directory in the code(line 2)
  functions and description:
       function name:        LoGiN
       function syntax:      Login(email,password) 
@@ -33,7 +33,8 @@
                             the notification has come
                             
       function name:        TypeFastAnonymous 
-      function syntax:      TypeFastAno()
+      function syntax:      TypeFastAno(amountofwords)
       function description: this will be great if you don't wanna create an account and just mess with your friends post it on FACEBOOK 
                             or share the link how ever you like it but i think you should create an account it is a really cool site with
                             cool comminty i might update the code to be fit for the direact typing comptition aria as well
+                            the amount of words is to change how many WPM you write you can use None and it will do the default 210
