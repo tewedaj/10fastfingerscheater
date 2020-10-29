@@ -3,6 +3,8 @@
 2) you will need to pip install selenium and pytesseract
 3) after you do that you will need too download the tesseract installer from https://digi.bib.uni-mannheim.de/tesseract/
 4) and install it to "c:\Program Files\Tesseract-OCR\tesseract.exe" if you install it in another place you should change the directory in the code(line 2)
+ 
+ 
  functions and description:
       function name:        LoGiN
       function syntax:      Login(email,password) 
