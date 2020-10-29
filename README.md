@@ -1,5 +1,8 @@
 # 10fastfingerscheater
 # this code is writen for educational perpose only and also to screw with your friends hehehe
+# you will need to ping install selenium and pytesseract
+# after you do that you will need too download the tesseract installer from https://digi.bib.uni-mannheim.de/tesseract/
+# and install it to "c:\Program Files\Tesseract-OCR\tesseract.exe" if you install it in another place you should change the directory in the code(line 2)
  functions and description:
       function name:        LoGiN
       function syntax:      Login(email,password) 
