@@ -18,13 +18,13 @@ def Login(email,password):#this function alone is usless it just loged in
     UserName.send_keys(email)
     Password.send_keys(password)
     loginButton.click()
-def TypeFast(email,password,words):#this function will login and type crazy fast
+def TypeFast(email,password,w):#this function will login and type crazy fast
     Login(email,password)
     time.sleep(29)
     x=0
-    if words == None:
-        words = 210
-    while x < words:#if it finshes the whole thing 10fastfinger will actually know this is a bot so you can go ahead and finsh the whole thing your self
+    if w == None:
+        w = 210
+    while x < w: #if it finshes the whole thing 10fastfinger will actually know this is a bot so you can go ahead and finsh the whole thing your self
         words=driver.find_element(By.XPATH,"//span[@class='highlight']").text
         writer = driver.find_element(By.CLASS_NAME, "form-control")
         writer.send_keys(words," ")
